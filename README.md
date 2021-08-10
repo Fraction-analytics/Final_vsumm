@@ -11,7 +11,7 @@ tabulate
 
 ## 1. Get Started
 ```bash
-mkdir dataset and put mp4 video files 
+mkdir videos and put mp4 video files 
 ```
 ## 2. Dataset Generation
 ```bash
@@ -19,7 +19,7 @@ python3 create_data.py --input videos --output dataset/data.h5
 ``` 
 ## 3. Feature Extraction
 ```bash
-python feat_extraction.py -d dataset/data.h5
+python feat_extraction.py
 ``` 
 ## 4. Summary Generation
 
